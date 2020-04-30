@@ -1,0 +1,453 @@
+
+/* Navigation */
+* {
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:#F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    
+}
+
+.logo {
+    color:#333133;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+.logo-image{
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: #333133;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color:#333133;
+    margin: 5px;
+
+}
+
+
+
+/* anchor links */
+
+.aboveFold {
+    position: relative;
+}
+.aboveFold > a {
+    position: absolute;
+    top: 0px;
+}
+.moreaboutme{
+    position: relative;
+}
+.moreaboutme > a {
+    position: absolute;
+    top: 0px;
+}
+
+
+
+
+/* Home */
+body{
+    font-family:'Montserrat', sans-serif ;
+    background-color: #F2F2F2;
+}
+
+.aboveFold {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.intro{
+    margin-top: 30px;
+    width: 350px;
+    margin-left: 100px;
+    /* border: 3px solid red; */
+}
+
+.Me {
+    width: 262px;
+}
+.summary {
+    width: 255px;
+    font-size: 20px ;
+}
+
+.icons{
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 180px ;
+    height:60px ;
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #333133;
+    color: #FCFCFC;
+    cursor: pointer;
+    box-shadow: 2px 2px gray;
+}
+.work {
+    /* border: 3px solid green; */
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+} 
+
+.work img {
+    width: 350px;
+    margin-left: 60px;
+    padding-top: 50px;
+} 
+
+/* THRIVE */
+
+.Thrive{
+    /* border: 3px solid green; */
+    margin-bottom: 10px;
+    max-width: 100%;
+
+}
+
+.Thrivecontainer{
+    position: relative;
+    width: 400px;
+
+}
+/* .Thrivetext{
+    background-color:#1C3956;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    padding: 40px;
+    top: 60px;
+    left: 130px;
+    opacity: 0;
+    transition: .5s ease;
+} */
+
+.Thrivehover{
+    /* border: 3px solid; */
+    position: absolute;
+ opacity: 0;
+    top: 0px;
+    transition: .5s ease;
+}
+
+
+.Thrive:hover{
+    opacity: 0;
+}
+.Thrivehover:hover{
+    opacity: 1;
+}
+
+/* USCIS */
+
+.usciscontainer{
+    position: relative;
+    width: 400px;
+}
+.uscis {
+    max-width: 100%;
+    margin-bottom: 10px;  
+}
+.uscishover{
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.uscishover:hover{
+    opacity: 1;
+}
+
+/* Travel App */
+.travelappcontainer{
+    position: relative;
+}
+
+.TravelApp{
+max-width: 100%;
+}
+
+
+.travelhover{
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    top: 0px;
+}
+
+.travelhover:hover{
+    opacity: 1;
+}
+
+
+/* Atlanta Jugglers Association */
+
+.ajacontainer{
+    position: relative;
+}
+.AJA{
+    max-width: 100%;
+}
+.ajahover{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transition: .5s ease;
+}
+.ajahover:hover{
+    opacity: 1;
+}
+
+
+/* More About Me */
+.moreaboutme{
+    /* border: 3px solid hotpink; */
+    width: 70;
+    margin: 70px;
+    display: flex;
+    padding-top: 65px;
+    align-content: center;
+    padding-left: 20px;
+
+}
+
+.middletext {
+    /* border: 3px solid green; */
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+}
+
+.moreaboutme h1 {
+    font-size: 32px;
+}
+
+.aboutmeimages{
+    /* border: 3px solid blue; */
+    width: 300px;
+    margin-left: 100px;
+
+}
+
+.aboutmeimages img {
+    width: 350px;
+}
+
+
+/* Contact */
+
+.contact{
+    /* border: 3px solid; */
+    background-color: #988780;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+   height: 500px;
+    padding: 50px;
+    overflow: auto;
+
+}
+
+.contacticons{
+    height: 40px;
+    padding-left: 100px;
+
+}
+
+.contacttext {
+    font-size: 24px;
+    margin: 50px auto;
+    font-weight: bold;
+
+}
+
+#behancecontact {
+    padding-left: 3px;
+    margin-left: 9px;
+}
+
+.contact h1{
+    padding-top: 10px;
+    background-color: ivory;
+    border-radius: 10px; 
+}
+
+
+/* FOOTER */
+footer{
+    height: 20px;
+    padding-left: 350px;
+    margin-top: 80px;
+    background-color: #F2f2f2;
+    font-size: 17px;
+}
+
+
+/* MOBILE  */
+
+
+@media screen and (max-width:800px){
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color:#F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+
+    }
+    .toggle .line2{
+        opacity: 0;
+
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+
+    }
+
+    .aboveFold{
+        display: inline;
+        margin: 0 auto;
+
+    }
+    .intro{
+        padding-top: 20px;
+    }
+
+    .moreaboutme{
+        display: inline;
+    }
+
+    .middletext{
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 75%;
+    }
+
+    .aboutmeimages{
+        opacity: 0;
+        height: 5px;
+    }
+
+    /* .aboutmeimages img {
+        opacity: 0;
+
+    } */
+
+    .contact{
+        max-width: 300px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .contacttext{
+        display: flex;
+        font-size: 16px;
+    }
+   .contacticons{
+       height: 35px;
+   }
+    
+   footer{
+       display: inline;
+       font-size: 16px;
+   }
+
+
+ 
+
+
+
+   
+
+
+}
