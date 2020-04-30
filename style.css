@@ -339,7 +339,7 @@ footer{
 /* MOBILE  */
 
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:600px){
     body {
         overflow-x: hidden;
     }
