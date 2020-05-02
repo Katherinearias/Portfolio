@@ -82,6 +82,7 @@ nav{
 
 
 /* Home */
+
 body{
     font-family:'Montserrat', sans-serif ;
     background-color: #F2F2F2;
@@ -91,14 +92,14 @@ body{
     padding-top: 40px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    /* padding-left: 10px; */
     
 }
 .intro{
     margin-top: 30px;
     width: 350px;
-    margin-left: 100px;
     /* border: 3px solid red; */
+    margin-left: 100px;
 }
 
 .Me {
@@ -129,9 +130,8 @@ button {
     box-shadow: 2px 2px gray;
 }
 .work {
-    /* border: 3px solid green; */
+    /* border: 3px solid green;  */
     width: 80%;
-    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -140,7 +140,7 @@ button {
 
 .work img {
     width: 350px;
-    margin-left: 60px;
+    margin-left: 50px;
     padding-top: 50px;
 } 
 
@@ -209,6 +209,7 @@ button {
 
 /* Travel App */
 .travelappcontainer{
+    opacity: 0;
     position: relative;
 }
 
@@ -287,9 +288,9 @@ max-width: 100%;
 
 /* Contact */
 
-.contact{
+/* .contact{ */
     /* border: 3px solid; */
-    background-color: #988780;
+    /* background-color: #988780;
     text-align: center;
     margin-left: 320px;
     margin-right: 400px;
@@ -298,15 +299,15 @@ max-width: 100%;
    height: 500px;
     padding: 50px;
     overflow: auto;
+    */
 
-}
 
-.contacticons{
-    height: 40px;
+/* .contacticons{
+    height: 50px;
     padding-left: 100px;
 
-}
-
+} */
+/*
 .contacttext {
     font-size: 24px;
     margin: 50px auto;
@@ -317,24 +318,25 @@ max-width: 100%;
 #behancecontact {
     padding-left: 3px;
     margin-left: 9px;
-}
+} */ 
 
-.contact h1{
+/* .contact h1{
     padding-top: 10px;
     background-color: ivory;
     border-radius: 10px; 
-}
+} */
+
+
 
 
 /* FOOTER */
-footer{
-    height: 20px;
-    padding-left: 350px;
-    margin-top: 80px;
+
+footer {
+    height: fit-content;
     background-color: #F2f2f2;
     font-size: 17px;
+    text-align: center;
 }
-
 
 /* MOBILE  */
 
@@ -343,6 +345,8 @@ footer{
     body {
         overflow-x: hidden;
     }
+ 
+
     .nav-links{
         position: absolute;
         right: 0px;
@@ -401,7 +405,7 @@ footer{
 
     }
     .intro{
-        padding-top: 20px;
+        padding-top: 60px;
     }
 
     .moreaboutme{
@@ -424,30 +428,27 @@ footer{
 
     } */
 
-    .contact{
+    /* .contact{
         max-width: 300px;
         margin: 0 auto;
         align-items: center;
+        justify-content: center;
     }
     .contacttext{
         display: flex;
         font-size: 16px;
     }
    .contacticons{
-       height: 35px;
+       height: 35px; */
    }
-    
-   footer{
-       display: inline;
-       font-size: 16px;
-   }
-
-
- 
-
-
-
-   
-
 
 }
+
+footer{
+    display: inline;
+    font-size: 16px;
+}
+.footericons{
+    align-content: center;
+}
+
