@@ -209,7 +209,7 @@ button {
 
 /* Travel App */
 .travelappcontainer{
-    opacity: 0;
+    opacity: 1;
     position: relative;
 }
 
