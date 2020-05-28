@@ -234,20 +234,6 @@ max-width: 100%;
 
 .ajacontainer{
     position: relative;
-<<<<<<< HEAD
-}
-.AJA{
-    max-width: 100%;
-}
-.ajahover{
-    position: absolute;
-    top: 0px;
-    opacity: 0;
-    transition: .5s ease;
-}
-.ajahover:hover{
-    opacity: 1;
-=======
 }
 .AJA{
     max-width: 100%;
@@ -286,7 +272,6 @@ max-width: 100%;
 
 .moreaboutme h1 {
     font-size: 32px;
->>>>>>> parent of e2ad41a... 1
 }
 
 .aboutmeimages{
@@ -294,23 +279,10 @@ max-width: 100%;
     width: 300px;
     margin-left: 100px;
 
-<<<<<<< HEAD
-/* More About Me */
-.moreaboutme{
-    /* border: 3px solid hotpink; */
-    width: 70;
-    margin: 70px;
-    display: flex;
-    padding-top: 65px;
-    align-content: center;
-    padding-left: 20px;
-
-=======
 }
 
 .aboutmeimages img {
     width: 350px;
->>>>>>> parent of e2ad41a... 1
 }
 
 .middletext {
@@ -322,22 +294,6 @@ max-width: 100%;
     margin-left: 40px;
 }
 
-<<<<<<< HEAD
-.moreaboutme h1 {
-    font-size: 32px;
-}
-
-.aboutmeimages{
-    /* border: 3px solid blue; */
-    width: 300px;
-    margin-left: 100px;
-
-}
-
-.aboutmeimages img {
-    width: 350px;
-}
-=======
 /* Contact */
 
 /* .contact{ */
@@ -357,7 +313,6 @@ max-width: 100%;
 /* .contacticons{
     height: 50px;
     padding-left: 100px;
->>>>>>> parent of e2ad41a... 1
 
 } */
 /*
@@ -366,51 +321,12 @@ max-width: 100%;
     margin: 50px auto;
     font-weight: bold;
 
-<<<<<<< HEAD
-/* Contact */
-
-/* .contact{ */
-    /* border: 3px solid; */
-    /* background-color: #988780;
-    text-align: center;
-    margin-left: 320px;
-    margin-right: 400px;
-    margin-top: 100px;
-    border-radius: 20px;
-   height: 500px;
-    padding: 50px;
-    overflow: auto;
-    */
-
-
-/* .contacticons{
-    height: 50px;
-    padding-left: 100px;
-} */
-/*
-.contacttext {
-    font-size: 24px;
-    margin: 50px auto;
-    font-weight: bold;
-=======
->>>>>>> parent of e2ad41a... 1
 }
 #behancecontact {
     padding-left: 3px;
     margin-left: 9px;
 } */ 
 
-<<<<<<< HEAD
-/* .contact h1{
-    padding-top: 10px;
-    background-color: ivory;
-    border-radius: 10px; 
-} */
-
-
-
-
-=======
 #behancecontact {
     padding-left: 3px;
     margin-left: 9px;
@@ -425,16 +341,11 @@ max-width: 100%;
 
 
 
->>>>>>> parent of e2ad41a... 1
 /* FOOTER */
 
 footer {
     height: fit-content;
     background-color: #F2f2f2;
-<<<<<<< HEAD
-    font-size: 17px;
-=======
->>>>>>> parent of e2ad41a... 1
     text-align: center;
 }
 
@@ -525,10 +436,8 @@ footer {
 
     /* .aboutmeimages img {
         opacity: 0;
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of e2ad41a... 1
+
     } */
 
     /* .contact{
@@ -545,18 +454,6 @@ footer {
        height: 35px; */
    }
 
-<<<<<<< HEAD
-}
-
-footer{
-    display: inline;
-    font-size: 16px;
-}
-.footericons{
-    align-content: center;
-}
-  
-=======
 
 footer{
     display: inline;
@@ -564,7 +461,6 @@ footer{
 
 }
 
->>>>>>> parent of e2ad41a... 1
 
 #preloader {
     position: fixed;
