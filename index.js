@@ -61,4 +61,3 @@ function fade (){
 }
 
 setTimeout (fade, 3000)
-

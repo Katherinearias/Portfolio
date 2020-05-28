@@ -453,11 +453,21 @@ footer {
        height: 35px; */
    }
 
+   footer {
+    height: fit-content;
+    background-color: #F2f2f2;
+    font-size: 17px;
+    text-align: center;
+}
 
 footer{
     display: inline;
     font-size: 16px;
 
+}
+
+.footericons{
+    align-content: center;
 }
 
 
